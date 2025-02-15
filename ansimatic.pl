@@ -42,7 +42,7 @@ printf "\x1b[?25l";
 sub runframe {
   printf("@_");  # Print the arguments sent in quotes to the subroutine.
   sleep(1); # Adding in sleep for a cushion. You can remove it if you wish.
-  printf("\033[A$A\r");
+  printf("\033[A$A\r"); # Go back up the line becase it made a new line and rewind.
 }
 
 
