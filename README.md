@@ -21,3 +21,8 @@ G is bright cyan.
 and lastly, H is bright white.  
 
 0 and 4 were skipped because otherwise the regex screwed with the results. Sorry.
+
+Check out the example.txt file provided. It should look like this in the terminal:  
+
+  
+![](https://github.com/xeiavicaflashrepository/ansimaticspl/blob/main/examplescreenshot.png?raw=true)
