@@ -63,12 +63,15 @@ while (my $STR = <$INPUT>) {
 
 	# A pound sign is treated as a comment. The perl script will ignore everything from comment to end of the line.
 	$STR =~ s/\#.*$//g;
-  printf "\n$STR\n\n"; # Giving a bit of space between the terminal input and the resuming of the input.
+  printf "$STR"; # Giving a bit of space between the terminal input and the resuming of the input.
 
 }
 
 # Note that you should probably adjust the script at the end to reset the colours back to desired settings.
 # Script right now isn't going to do that.
+
+# Pad a bit at the end.
+printf "\n\n";
 
 # Resume cursor
 printf "\x1b[?25h ";
