@@ -1,0 +1,8 @@
+# This is a comment. Everything beyond it including the pound sign is ignored.
+
+222222333333333
+1555555#6789ABCDEF
+
+FFFFFE#1235677444444444
+# Notice how this is not shown.
+ABCDEFFFFFFFFFFFFFFFF1111#4444444
