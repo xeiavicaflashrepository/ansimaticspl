@@ -26,3 +26,5 @@ Check out the example.txt file provided. It should look like this in the termina
 
   
 ![](https://github.com/xeiavicaflashrepository/ansimaticspl/blob/main/examplescreenshot.png?raw=true)
+
+To run it, ensure the execute permissions are set and if it's in a different directory, said directory is part of your $PATH. Otherwise, run `perl <location of ansimatics.pl> <inputfile.txt>` and you're good to go.
