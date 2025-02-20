@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# z - black
+# b - red
+# c - green
+# d - yellow
+# e - blue
+# f - mangenta
+# x - cyan
+# h - white
+
+# Z - bright black (grey)
+# B - Bright Red
+# C - Bright Green
+# D - Bright Yellow
+# E - Bright Blue
+# F - Bright Mangenta
+# X - Bright Cyan
+# H - Bright White
+
+INPUT="$(sed -E -e 's/z/\\033[0;40m /g' -e 's/b/\\033[0;41m /g' -e 's/c/\\033[0;42m /g' -e 's/d/\\033[0;43m /g' -e 's/e/\\033[0;44m /g' -e 's/f/\\033[0;45m /g' -e 's/x/\\033[0;46m /g' -e 's/h/\\033[0;47m /g' -e 's/Z/\\033[0;100m /g' -e 's/B/\\033[0;101m /g' -e 's/C/\\033[0;102m /g' -e 's/D/\\033[0;103m /g' -e 's/E/\\033[0;104m /g' -e 's/F/\\033[0;105m /g' -e 's/X/\\033[0;106m /g' -e 's/H/\\033[0;107m /g')"
+
+echo -ne "$INPUT"
+
+printf "\n\n\n\033[0;38;48m"
+sleep 0.5
+clear
